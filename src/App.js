@@ -1,25 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import img from "./img/lamborghini.jpg";
+import HEADER from "./component/HEADER";
+import NAV from "./component/NAV";
+import CONTENT from "./component/CONTENT";
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div>Добро Пожаловать!!!!!</div>
-      </header>
-      <nav>
-        <ul>
-          <li>Главная</li>
-          <li>О Компании</li>
-          <li>Новости</li>
-          <li>Контакты</li>
-        </ul>
-      </nav>
-      <div>
-        <img src={img} />
-      </div>
+    <div className="App-wraper">
+      <HEADER />
+      <NAV />
+      <CONTENT />
     </div>
   );
 }
