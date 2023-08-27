@@ -4,7 +4,6 @@ import img from "../img/lamborghini.jpg";
 
 export default function NAV() {
     return (
-      <div>
       <div className="content">
         <div>
           <img src={img} />
@@ -17,7 +16,6 @@ export default function NAV() {
           <div>POST 4</div>
           <div>POST 5</div>
         </div>
-      </div>
       </div>
     );
   }

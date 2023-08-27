@@ -4,7 +4,6 @@ import React from 'react';
 
 export default function NAV() {
     return (
-      <div>
       <nav className="nav">
         <ul>
           <li>
@@ -21,6 +20,5 @@ export default function NAV() {
           </li>
         </ul>
       </nav>
-      </div>
     );
   }
