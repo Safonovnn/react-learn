@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import img from "./img/";
+import img from "./img/lamborghini.jpg";
 
 function App() {
   return (
