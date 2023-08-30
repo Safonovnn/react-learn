@@ -1,16 +1,19 @@
 import React from 'react';
-import img from "../img/lamborghini.jpg";
-import classCss from "../styleCSS/Content.module.css";
+import classCss from "../styleCSS/Posts.module.css";
+import imgPosts from "../img/info-img.jpg";
 
 
-export default function Post() {
+export default function Post({text}) {
     return (
         <div>
-          <div className={classCss.item}>POST 1</div>
-          <div className={classCss.item}>POST 2</div>
-          <div className={classCss.item}>POST 3</div>
-          <div className={classCss.item}>POST 4</div>
-          <div className={classCss.item}>POST 5</div>
+          <div className={classCss.item}>
+            <div>
+              <img className={classCss.imgPost} src={imgPosts} />
+            </div>
+            <div>
+              {text}
+            </div>
+          </div>
         </div>
     );
   }
