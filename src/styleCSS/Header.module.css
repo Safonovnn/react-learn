@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    background-color: aqua;
+    padding: 25px;
+}
+
+.header img{
+    max-width: 120px;
+    max-height: 90px;
+}

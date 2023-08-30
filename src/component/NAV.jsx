@@ -1,22 +1,23 @@
 import React from 'react';
+import classCss from "../styleCSS/Nav.module.css";
 
 
 
 export default function NAV() {
     return (
-      <nav className="nav">
+      <nav className={classCss.nav}>
         <ul>
-          <li>
-            <a href="#">Главная</a>
+          <li className={classCss.item}>
+            <a className={classCss.itemEl} href="#">Главная</a>
           </li>
-          <li>
-            <a href="#">О Компании</a>
+          <li className={classCss.item}>
+            <a className={classCss.itemEl} href="#">О Компании</a>
           </li>
-          <li>
-            <a href="#">Новости</a>
+          <li className={classCss.item}>
+            <a className={classCss.itemEl} href="#">Новости</a>
           </li>
-          <li>
-            <a href="#">Контакты</a>
+          <li className={classCss.item}>
+            <a className={classCss.itemEl} href="#">Контакты</a>
           </li>
         </ul>
       </nav>

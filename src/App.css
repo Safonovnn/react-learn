@@ -1,15 +1,4 @@
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-wraper{
 max-width: 1200px;
 margin: 0 auto;
@@ -23,34 +12,6 @@ grid-template-rows: 100px 1fr;
 grid-gap: 10px;
 }
 
-.header{
-display: flex;
-justify-content: space-between;
-align-items: center;
-grid-area: header;
-background-color: aqua;
-padding: 25px;
-}
 
-.header img{
-  max-width: 120px;
-  max-height: 90px;
-}
 
-.content img{
-  max-width: 100%;
-}
 
-.nav{
-  grid-area: nav;
-  background-color: aquamarine;
-}
-
-.content{
-  grid-area: content;
-  background-color: darkcyan;
-}
-
-.title{
-  text-align: center;
-}
