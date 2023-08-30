@@ -3,7 +3,7 @@ import classCss from "../styleCSS/Posts.module.css";
 import imgPosts from "../img/info-img.jpg";
 
 
-export default function Post({text}) {
+export default function Post({text, likeCount}) {
     return (
         <div>
           <div className={classCss.item}>
@@ -14,6 +14,7 @@ export default function Post({text}) {
               {text}
             </div>
           </div>
+          <span>Like {likeCount}</span>
         </div>
     );
   }
