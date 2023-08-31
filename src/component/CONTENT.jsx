@@ -10,7 +10,7 @@ export default function CONTENT() {
         <div>
           <img src={img} />
         </div>
-        <h1 className={classCss.title}>НАША КОМПАНИЯ</h1>
+        <h1 className={classCss.title}>Артем Сидоров</h1>
         <Post text={ "Hello World" } likeCount={5} />
         <Post text={"first radd races"} likeCount={35} />
         <Post text={"don't miss the opening"} likeCount={15} />
