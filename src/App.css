@@ -6,10 +6,15 @@ display: grid;
 grid-template-areas: 
 "header header"
 "nav content"
+"nav message"
 ;
 grid-template-columns: 2fr 10fr;
 grid-template-rows: 100px 1fr;
 grid-gap: 10px;
+}
+
+.mainContent{
+    grid-area: content;
 }
 
 
