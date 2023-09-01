@@ -8,16 +8,16 @@ export default function NAV() {
       <nav className={classCss.nav}>
         <ul>
           <li className={classCss.item}>
-            <a className={classCss.itemEl} href="#">Профиль</a>
+            <a href="/CONTENT" className={classCss.itemEl} >Профиль</a>
           </li>
           <li className={classCss.item}>
-            <a className={classCss.itemEl} href="#">Сообщения</a>
+            <a href="/MESSAGE" className={classCss.itemEl} >Сообщения</a>
           </li>
           <li className={classCss.item}>
-            <a className={classCss.itemEl} href="#">Новости</a>
+            <a href="/NEWS" className={classCss.itemEl} >Новости</a>
           </li>
           <li className={classCss.item}>
-            <a className={classCss.itemEl} href="#">Настройки</a>
+            <a href="/SETTINGS" className={classCss.itemEl} >Настройки</a>
           </li>
         </ul>
       </nav>
