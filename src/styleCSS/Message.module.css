@@ -1,0 +1,10 @@
+.messege{
+    background-color: coral;
+    grid-area: message;
+}
+
+.title{
+    text-align: center;
+    color: green;
+    margin: 0;
+}
