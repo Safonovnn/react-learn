@@ -1,5 +1,6 @@
 import React from 'react';
 import classCss from "../styleCSS/Nav.module.css";
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -8,16 +9,16 @@ export default function NAV() {
       <nav className={classCss.nav}>
         <ul>
           <li className={classCss.item}>
-            <a href="/CONTENT" className={classCss.itemEl} >Профиль</a>
+            <NavLink to="/CONTENT" className={classCss.itemEl} >Профиль</NavLink>
           </li>
           <li className={classCss.item}>
-            <a href="/MESSAGE" className={classCss.itemEl} >Сообщения</a>
+            <NavLink to="/MESSAGE" className={classCss.itemEl} >Сообщения</NavLink>
           </li>
           <li className={classCss.item}>
-            <a href="/NEWS" className={classCss.itemEl} >Новости</a>
+            <NavLink to="/NEWS" className={classCss.itemEl} >Новости</NavLink>
           </li>
           <li className={classCss.item}>
-            <a href="/SETTINGS" className={classCss.itemEl} >Настройки</a>
+            <NavLink to="/SETTINGS" className={classCss.itemEl} >Настройки</NavLink>
           </li>
         </ul>
       </nav>

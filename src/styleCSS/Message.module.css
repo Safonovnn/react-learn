@@ -8,3 +8,18 @@
     color: green;
     margin: 0;
 }
+
+.messageContent{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-template-rows: 100px 1fr;
+    grid-gap: 10px;
+}
+
+.messageUser{
+    background-color: yellow;
+}
+
+.messageText{
+background-color: yellowgreen;
+}
