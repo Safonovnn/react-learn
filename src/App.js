@@ -9,20 +9,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App-wraper">
-        <HEADER />
-        <NAV />
-        <div className="mainContent">
-          <Routes>
-            <Route path="/CONTENT" element={<CONTENT />} />
-            <Route path="/MESSAGE" element={<MESSAGE />} />
-            <Route path="/NEWS" element={<NEWS />} />
-            <Route path="/SETTINGS" element={<SETTINGS />} />
-          </Routes>
-        </div>
+    <div className="App-wraper">
+      <HEADER />
+      <NAV />
+      <div className="mainContent">
+        <Routes>
+          <Route path="/CONTENT" element={<CONTENT />} />
+          <Route path="/MESSAGE" element={<MESSAGE />} />
+          <Route path="/NEWS" element={<NEWS />} />
+          <Route path="/SETTINGS" element={<SETTINGS />} />
+        </Routes>
       </div>
-    </BrowserRouter>
+    </div>
   );
 }
 
