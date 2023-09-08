@@ -3,8 +3,8 @@ import HEADER from "./component/HEADER";
 import NAV from "./component/NAV";
 import CONTENT from "./component/main/CONTENT";
 import MESSAGE from "./component/message/MESSAGE";
-import NEWS from "./component/main/NEWS";
-import SETTINGS from "./component/main/SETTINGS";
+import NEWS from "./component/news/NEWS";
+import SETTINGS from "./component/setting/SETTINGS";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

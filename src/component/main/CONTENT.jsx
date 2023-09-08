@@ -1,7 +1,7 @@
 import React from 'react';
 import img from "../../img/lamborghini.jpg";
-import classCss from "../../styleCSS/Content.module.css";
-import Post from "./Post"
+import classCss from "./Content.module.css";
+import Post from "./posts/Post"
 
 
 export default function CONTENT() {

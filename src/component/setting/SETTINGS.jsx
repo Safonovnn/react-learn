@@ -1,5 +1,5 @@
 import React from 'react';
-import classCss from "../../styleCSS/Settings.module.css";
+import classCss from "./Settings.module.css";
 
 
 

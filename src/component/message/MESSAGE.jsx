@@ -1,5 +1,5 @@
 import React from 'react';
-import classCss from "../../styleCSS/Message.module.css";
+import classCss from "./Message.module.css";
 
 export default function MESSAGE() {
     return (

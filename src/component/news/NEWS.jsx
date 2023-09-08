@@ -1,5 +1,5 @@
 import React from 'react';
-import classCss from "../../styleCSS/News.module.css";
+import classCss from "./News.module.css";
 
 
 
