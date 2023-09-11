@@ -1,4 +1,4 @@
-.messege{
+.message{
     background-color: coral;
     grid-area: message;
 }
@@ -7,12 +7,13 @@
     text-align: center;
     color: green;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .messageContent{
     display: grid;
-    grid-template-columns: 4fr 8fr;
-    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
     grid-gap: 10px;
 }
 
@@ -22,4 +23,12 @@
 
 .messageText{
 background-color: yellowgreen;
+}
+
+.item{
+    margin-bottom: 20px;
+}
+
+.messageTextItem{
+    margin: 10px 0 10px 30px;
 }
