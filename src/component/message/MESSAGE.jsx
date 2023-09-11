@@ -2,6 +2,21 @@ import React from 'react';
 import classCss from "./Message.module.css";
 import { NavLink } from 'react-router-dom';
 
+function MessageUser({id, userMessage}){
+  return (
+    <li className={classCss.item}>
+      <NavLink to={id}>{userMessage}</NavLink>
+    </li>
+
+  )
+}
+
+function MessageDialog({textMessage}){
+  return (
+  <div className={classCss.messageTextItem}>{textMessage}</div>
+  )
+}
+
 export default function MESSAGE() {
     return (
       <div className={classCss.message}>
@@ -10,28 +25,18 @@ export default function MESSAGE() {
         <div className={classCss.messageContent}>
           <div className={classCss.messageUser}>
             <ul className={classCss.messageItem}>
-              <li className={classCss.item}>
-                <NavLink to="/MESSAGE/1">Andrey S.</NavLink>
-                </li>
-              <li className={classCss.item}>
-              <NavLink to="/MESSAGE/2">Victor K.</NavLink>
-              </li>
-              <li className={classCss.item}>
-              <NavLink to="/MESSAGE/3">Sasha O.</NavLink>
-              </li>
-              <li className={classCss.item}>
-              <NavLink to="/MESSAGE/4">Elena I.</NavLink>
-              </li>
-              <li className={classCss.item}>
-              <NavLink to="/MESSAGE/5">Valera D.</NavLink>
-              </li>
+            <MessageUser id="1" userMessage="Andrey S." />
+            <MessageUser id="2" userMessage="Victor K." />
+            <MessageUser id="3" userMessage="Sasha O." />
+            <MessageUser id="4" userMessage="Elena I." />
+            <MessageUser id="5" userMessage="Valera D." />
             </ul>
           </div>
           <div className={classCss.messageText}>
-            <div className={classCss.messageTextItem}>Hello</div>
-            <div className={classCss.messageTextItem}>Hi!</div>
-            <div className={classCss.messageTextItem}>How are you?</div>
-            <div className={classCss.messageTextItem}>Cool</div>
+            <MessageDialog textMessage="Hello" />
+            <MessageDialog textMessage="Hi!" />
+            <MessageDialog textMessage="How are you?" />
+            <MessageDialog textMessage="Cool" />
           </div>
         </div>
         

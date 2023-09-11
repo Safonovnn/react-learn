@@ -9,16 +9,16 @@ export default function NAV() {
       <nav className={classCss.nav}>
         <ul>
           <li className={classCss.item}>
-            <NavLink to="/CONTENT" className={classCss.itemEl} >Профиль</NavLink>
+            <NavLink to="CONTENT" className={classCss.itemEl} >Профиль</NavLink>
           </li>
           <li className={classCss.item}>
-            <NavLink to="/MESSAGE" className={classCss.itemEl} >Сообщения</NavLink>
+            <NavLink to="MESSAGE" className={classCss.itemEl} >Сообщения</NavLink>
           </li>
           <li className={classCss.item}>
-            <NavLink to="/NEWS" className={classCss.itemEl} >Новости</NavLink>
+            <NavLink to="NEWS" className={classCss.itemEl} >Новости</NavLink>
           </li>
           <li className={classCss.item}>
-            <NavLink to="/SETTINGS" className={classCss.itemEl} >Настройки</NavLink>
+            <NavLink to="SETTINGS" className={classCss.itemEl} >Настройки</NavLink>
           </li>
         </ul>
       </nav>

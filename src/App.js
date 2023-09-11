@@ -14,10 +14,10 @@ function App() {
       <NAV />
       <div className="mainContent">
         <Routes>
-          <Route exact path="/CONTENT" element={<CONTENT />} />
-          <Route path="/MESSAGE" element={<MESSAGE />} />
-          <Route path="/NEWS" element={<NEWS />} />
-          <Route path="/SETTINGS" element={<SETTINGS />} />
+          <Route path="CONTENT" element={<CONTENT />} />
+          <Route path="MESSAGE/*" element={<MESSAGE />} />
+          <Route path="NEWS" element={<NEWS />} />
+          <Route path="SETTINGS" element={<SETTINGS />} />
         </Routes>
       </div>
     </div>
